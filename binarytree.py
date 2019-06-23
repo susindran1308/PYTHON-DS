@@ -62,7 +62,7 @@ a = BinaryTree()
 
 x.maketree(40, a, a)
 y.maketree(60, a, a)
-z.maketree(20,x, a)
+z.maketree(20, x, a)
 r.maketree(50, a, y)
 s.maketree(30, r, a)
 t.maketree(10, z, s)
