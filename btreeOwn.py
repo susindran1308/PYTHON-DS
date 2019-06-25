@@ -34,7 +34,16 @@ class BinaryTree():
             self.display(node.left)
             
             self.display(node.right)
-
+    def search(self, e, node):
+        if node. e == e:
+            return True
+        else:
+            if e < node.e and node.left:
+                return self.search(e, node.left)
+            elif e> node.e and node.right:
+                return self.search(e, node.right)
+            else:
+                return False
 
 b = BinaryTree()
 
@@ -45,3 +54,6 @@ b.addNode(50, b.root)
 b.addNode(60, b.root)
 
 b.display(b.root)
+print()
+
+print(b.search(30, b.root))
