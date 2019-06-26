@@ -14,7 +14,7 @@ def insertionSort2(arr):
         value = arr[i]
         pos = i
 
-        while i > 0 and arr[pos-1] > value:
+        while pos > 0 and arr[pos-1] > value:
             arr[pos] = arr[pos-1]
             pos-=1
 
